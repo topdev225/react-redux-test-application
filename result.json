@@ -1,0 +1,141 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 3,
+    "pending": 0,
+    "failures": 4,
+    "start": "2019-06-28T09:58:02.977Z",
+    "end": "2019-06-28T09:58:49.880Z",
+    "duration": 46903
+  },
+  "tests": [
+    {
+      "title": "Check if app is launched",
+      "fullTitle": "Load a Page Check if app is launched",
+      "duration": 2187,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Register",
+      "fullTitle": "Load a Page Register",
+      "duration": 4040,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Login",
+      "fullTitle": "Load a Page Login",
+      "duration": 10012,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.",
+        "message": "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
+    },
+    {
+      "title": "FetchExpenseList",
+      "fullTitle": "Load a Page FetchExpenseList",
+      "duration": 649,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "EditExpense",
+      "fullTitle": "Load a Page EditExpense",
+      "duration": 10000,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.",
+        "message": "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
+    },
+    {
+      "title": "ExpensePagination",
+      "fullTitle": "Load a Page ExpensePagination",
+      "duration": 10001,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.",
+        "message": "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
+    },
+    {
+      "title": "Sort-Filter",
+      "fullTitle": "Load a Page Sort-Filter",
+      "duration": 10000,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.",
+        "message": "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Login",
+      "fullTitle": "Load a Page Login",
+      "duration": 10012,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.",
+        "message": "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
+    },
+    {
+      "title": "EditExpense",
+      "fullTitle": "Load a Page EditExpense",
+      "duration": 10000,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.",
+        "message": "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
+    },
+    {
+      "title": "ExpensePagination",
+      "fullTitle": "Load a Page ExpensePagination",
+      "duration": 10001,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.",
+        "message": "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
+    },
+    {
+      "title": "Sort-Filter",
+      "fullTitle": "Load a Page Sort-Filter",
+      "duration": 10000,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.",
+        "message": "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "Check if app is launched",
+      "fullTitle": "Load a Page Check if app is launched",
+      "duration": 2187,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Register",
+      "fullTitle": "Load a Page Register",
+      "duration": 4040,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "FetchExpenseList",
+      "fullTitle": "Load a Page FetchExpenseList",
+      "duration": 649,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}

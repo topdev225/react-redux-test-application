@@ -1,0 +1,36 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "expense management system server",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app_hooked.js",
+    "start-with-params": "PARAM1=p1 PARAM2=p2 nodemon app_hooked.js",
+    "preversion": "npm test",
+    "postversion": "git push origin HEAD && git push origin $(git describe --tags) && npm publish"
+  },
+  "repository": {},
+  "keywords": [
+    "express",
+    "server",
+    "expense",
+    "app"
+  ],
+  "author": "Toms Muller",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015-node6": "^0.4.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.17.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-busboy": "^6.0.1",
+    "express-http-proxy": "^1.2.0",
+    "mongoose": "^4.11.7",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.17.5",
+    "random-date-generator": "^1.0.2",
+    "random-word": "^2.0.0",
+    "source-map-support": "^0.4.16"
+  }
+}

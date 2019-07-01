@@ -1,0 +1,3 @@
+Task: 
+1. Fix authentication issue.
+2. It seems like the request to get a expense list is working but the expense table does not show any contents.

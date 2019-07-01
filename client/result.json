@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 6,
+    "pending": 0,
+    "failures": 1,
+    "start": "2019-06-24T11:15:29.878Z",
+    "end": "2019-06-24T11:15:55.751Z",
+    "duration": 25873
+  },
+  "tests": [
+    {
+      "title": "Check if app is launched",
+      "fullTitle": "Load a Page Check if app is launched",
+      "duration": 3127,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Register",
+      "fullTitle": "Load a Page Register",
+      "duration": 4511,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Login",
+      "fullTitle": "Load a Page Login",
+      "duration": 4535,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "EditExpense",
+      "fullTitle": "Load a Page EditExpense",
+      "duration": 959,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ExpensePagination",
+      "fullTitle": "Load a Page ExpensePagination",
+      "duration": 860,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Sort-Filter",
+      "fullTitle": "Load a Page Sort-Filter",
+      "duration": 1865,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "CreateExpense",
+      "fullTitle": "Load a Page CreateExpense",
+      "duration": 10006,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/var/www/html/application/client/scripts/test.mocha.js)",
+        "message": "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/var/www/html/application/client/scripts/test.mocha.js)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "CreateExpense",
+      "fullTitle": "Load a Page CreateExpense",
+      "duration": 10006,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/var/www/html/application/client/scripts/test.mocha.js)",
+        "message": "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/var/www/html/application/client/scripts/test.mocha.js)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "Check if app is launched",
+      "fullTitle": "Load a Page Check if app is launched",
+      "duration": 3127,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Register",
+      "fullTitle": "Load a Page Register",
+      "duration": 4511,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Login",
+      "fullTitle": "Load a Page Login",
+      "duration": 4535,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "EditExpense",
+      "fullTitle": "Load a Page EditExpense",
+      "duration": 959,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ExpensePagination",
+      "fullTitle": "Load a Page ExpensePagination",
+      "duration": 860,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Sort-Filter",
+      "fullTitle": "Load a Page Sort-Filter",
+      "duration": 1865,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
