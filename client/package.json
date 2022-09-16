@@ -63,7 +63,7 @@
     "test": "node ./scripts/test --env=jsdom"
   },
   "devDependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "mocha": "^6.1.4",
     "nightmare": "^3.0.2"
   },
