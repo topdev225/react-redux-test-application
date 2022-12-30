@@ -64,7 +64,7 @@
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "nightmare": "^3.0.2"
   },
   "jest": {
